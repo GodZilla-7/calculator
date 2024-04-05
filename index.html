@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body style="background-image: url(styles/apple-iphone-13-pro-max-2021-medium.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: center;
+  background-position-y: 50px;
+  ;
+  ">
+  
+    <div style="display: flex;
+    justify-content: center;">
+      <div
+      class="asa"
+    >
+      <p
+        style="
+
+          border-style: none;
+          color: white;
+          font-size: 65px;
+          margin: 0px;
+          margin-bottom: 5px;
+          margin-right: 20px;
+        "
+        class="ansbox"
+      >0</p>
+    </div>
+    </div>
+    <div class="divs">
+      <button
+      class="n1"
+      onclick="calculation='';
+      document.querySelector('.ansbox').  innerHTML=calculation;
+      if (Number(calculation) ===0) {
+        document.querySelector('.n1').innerHTML='AC';
+      }
+      console.log(typeof Number(calculation));
+      dispval='';
+      "
+      >
+AC
+      </button>
+
+      <button class="r1" onclick="calculation+=' * -1'
+       eval(calculation);
+        calculation=eval(calculation);
+        document.querySelector('.ansbox').innerHTML=calculation;
+        ">
+        <img
+          style="height: 30px; width: 30px; vertical-align: bottom"
+          src="svg's/plus-minus-variant.svg"
+        />
+      </button>
+
+
+      <button class="r1" onclick="calculation+=' / 100 '
+      eval(calculation);
+        calculation=eval(calculation);
+        document.querySelector('.ansbox').innerHTML=calculation;">%</button>
+      <button class="lastClmn" onclick="calculation+=' / ';
+      dispval='';
+
+
+      ">÷</button>
+    </div>
+    <div class="divs">
+
+
+
+      <button class="number" onclick="calculation+='7';
+      if (dispval==='0') {
+           dispval='';
+        }
+      dispval+='7';
+      document.querySelector('.ansbox').innerHTML=dispval;
+      if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+      if (Number(dispval)>999999) {
+        document.querySelector('.ansbox').innerHTML='😢';
+        }
+      ">7</button>
+      <button class="number" onclick="calculation+='8';
+      if (dispval==='0') {
+           dispval='';
+        }
+      dispval+='8';
+      document.querySelector('.ansbox').innerHTML=dispval;
+       if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+      if (Number(dispval)>999999) {
+        document.querySelector('.ansbox').innerHTML='😢';
+        }
+      ">8</button>
+      <button class="number" onclick="
+      
+        
+      if (dispval==='0') {
+           dispval='';
+        }
+        calculation+='9'
+       dispval+='9';
+       document.querySelector('.ansbox').innerHTML=dispval;
+       if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+
+      if (Number(dispval)>999999) {
+        document.querySelector('.ansbox').innerHTML='😢';
+        }
+      ">9</button>
+
+
+
+
+      <button class="lastClmn" onclick="calculation+=' * '
+      dispval='';
+      ">×</button>
+    </div>
+
+    <div class="divs">
+
+
+
+
+
+      <button class="number" onclick="calculation+='4';
+      if (dispval==='0') {
+           dispval='';
+        }
+      dispval+='4';
+      document.querySelector('.ansbox').innerHTML=dispval;
+       if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+      if (Number(dispval)>999999) {
+        document.querySelector('.ansbox').innerHTML='😢';
+        }
+      ">4</button>
+      <button class="number" onclick="calculation+='5';
+      if (dispval==='0') {
+           dispval='';
+        }
+      dispval+='5';
+      document.querySelector('.ansbox').innerHTML=dispval;
+       if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+      if (Number(dispval)>999999) {
+        document.querySelector('.ansbox').innerHTML='😢';
+        }
+      ">5</button>
+      <button class="number" onclick="calculation+='6';
+      if (dispval==='0') {
+           dispval='';
+        }
+      dispval+='6';
+      document.querySelector('.ansbox').innerHTML=dispval;
+       if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+      if (Number(dispval)>999999) {
+        document.querySelector('.ansbox').innerHTML='😢';
+        }
+      ">6</button>
+      <button class="lastClmn" onclick="calculation+=' - '
+      dispval='';
+    
+      ">−</button>
+    </div>
+
+
+
+
+
+
+    <div class="divs">
+      <button class="number" onclick="calculation+='1';
+      if (dispval==='0') {
+           dispval='';
+        }
+      dispval+='1';
+      document.querySelector('.ansbox').innerHTML=dispval;
+       if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+      if (Number(dispval)>999999) {
+        document.querySelector('.ansbox').innerHTML='😢';
+        }
+      ">1</button>
+      <button class="number" onclick="
+      if (dispval==='0') {
+           dispval='';
+        }
+      calculation+='2';
+      dispval+='2';
+      document.querySelector('.ansbox').innerHTML=dispval;
+       if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+      if (Number(dispval)>999999) {
+        document.querySelector('.ansbox').innerHTML='😢';
+        }
+      ">2</button>
+      <button class="number" onclick="calculation+='3';
+      if (dispval==='0') {
+           dispval='';
+        }
+      dispval+='3';
+      document.querySelector('.ansbox').innerHTML=dispval;
+       if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+      if (Number(dispval)>999999) {
+        document.querySelector('.ansbox').innerHTML='😢';
+        }
+      ">3</button>
+      <button class="lastClmn" onclick="calculation+=' + ';
+      dispval='';
+      ">+</button>
+    </div>
+    <div class="divs">
+      <button
+        class="number"
+        style="width: 116px; border-radius: 60px; padding-right: 78px;
+        padding-left: 15px;"
+        onclick="
+        if (dispval==='' || dispval==='0') {
+           dispval='0';
+        }
+    
+        else {
+          document.querySelector('.ansbox').innerHTML=dispval;
+          dispval+='0';
+        }
+       calculation+='0';
+        
+        document.querySelector('.ansbox').innerHTML=dispval;
+       
+        "
+      >
+        0
+      </button>
+      <button class="number" onclick="calculation+='.';
+      dispval+='.';
+      document.querySelector('.ansbox').innerHTML=dispval;
+
+       if (Number(calculation) !==0) {
+        document.querySelector('.n1').innerHTML='C';
+      }
+      ">.</button>
+      <button
+      
+        class="equalsButton"
+        onclick="
+       
+        eval(calculation);
+        calculation=eval(calculation);
+        if (calculation===Infinity) {  
+          changeFontsize()
+        document.querySelector('.ansbox').innerText= 'Why did the number refuse to divide by zero. It said, I am not ready for the emotional baggage'
+        ;
+      }
+      if (calculation===undefined) {  
+        document.querySelector('.ansbox').innerText= '0'
+        ;
+      }
+
+      else {
+        changeFontsizeI();
+        document.querySelector('.ansbox').innerHTML=calculation;
+      }
+      dispval='';
+
+        "
+
+      >
+        =
+      </button>
+    </div>
+    <script>
+      let calculation = "";
+      let dispval = "";
+      function changeFontsize() {
+        let fontsDiv = document.querySelector(".ansbox");
+        fontsDiv.style.fontSize = "14px";
+      }
+      function changeFontsizeI() {
+        let fontsDiv = document.querySelector(".ansbox");
+        fontsDiv.style.fontSize = "58px";
+      }
+    </script>
+  </body>
+</html>

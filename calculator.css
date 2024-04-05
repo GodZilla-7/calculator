@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(40, 40, 40);
+  
+
+}
+.asa{
+  display: flex;
+        justify-content: flex-end;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        font-family: Helvetica;
+        height: 280px;
+        justify-content: center;
+        width: 270px;
+        align-items: flex-end;
+        justify-content: flex-end;
+}
+button {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  font-size: x-large;
+  font-weight:600;
+  margin: 3px;
+  border-style: solid;
+  margin: 6px;
+}
+.divs{
+  display: flex;
+  justify-content: center;
+}
+.r1{
+  border-style: none;
+  background-color: rgb(165, 165, 165);
+  transition: 0.3s;
+}
+.n1{
+  border-style: none;
+  background-color: rgb(165, 165, 165);
+  transition: 0.3s;
+}
+.lastClmn{
+  background-color: #fda932;
+  color: white;
+  border-style: none;
+  padding-bottom: 4px;
+  font-size: 30px;
+  transition: background-color 0.3s,
+  color 0.3s;
+
+}
+.lastClmn:focus{
+  background-color:white; 
+  color:#fda932;
+}
+.number{
+  border-style: none;
+  background-color: #505050;
+  color: white;
+  font-size: 28px;
+  transition: background-color 0.15s;
+}
+.number:active{
+ background-color: #757575;
+}
+.r1:active{
+  background-color: rgb(200, 200, 200);
+}
+.equalsButton{
+  background-color: #fda932;
+  color: white;
+  border-style: none;
+  padding-bottom: 4px;
+  font-size: 30px;
+  transition: background-color 0.3s,
+  color 0.3s;
+}
+.equalsButton:active{
+  background-color:white; 
+  color:#fda932;
+}
